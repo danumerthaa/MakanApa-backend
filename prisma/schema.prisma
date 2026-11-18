@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Menu {
+  id            String   @id @default(uuid())
+  nama          String   @unique
+  deskripsi     String   @default("")
+  harga         Int      @default(0)
+  kategori      String
+  isTersedia    Boolean  @default(true)
+  tanggalDibuat DateTime @default(now())
+}

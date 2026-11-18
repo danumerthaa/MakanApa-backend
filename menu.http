@@ -1,0 +1,29 @@
+### 1. Tambah menu baru (201 Created)
+POST http://localhost:3000/menu
+Content-Type: application/json
+
+{
+  "nama": "Nasi Goreng Spesial",
+  "deskripsi": "Nasi goreng dengan telur dan ayam suwir",
+  "harga": 18000,
+  "kategori": "Makanan Utama",
+  "isTersedia": true
+}
+
+### 2. Ambil semua menu (200 OK)
+GET http://localhost:3000/menu
+
+### 3. Ambil satu menu berdasarkan ID 
+GET http://localhost:3000/menu/918d03fb-e1f3-40e2-aa7d-60008b4a60fa
+
+### 4. Update menu berdasarkan ID
+PATCH http://localhost:3000/menu/918d03fb-e1f3-40e2-aa7d-60008b4a60fa
+Content-Type: application/json
+
+{
+  "harga": 20000,
+  "isTersedia": false
+}
+
+### 5. Hapus menu berdasarkan ID
+DELETE http://localhost:3000/menu/918d03fb-e1f3-40e2-aa7d-60008b4a60fa
