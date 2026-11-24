@@ -1,0 +1,25 @@
+### 1. Register akun baru
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "nama": "Danu",
+  "email": "danu@example.com",
+  "password": "password123"
+}
+
+### 2. Login (salin accessToken; klik 6x cepat untuk tes 429)
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "danu@example.com",
+  "password": "password123"
+}
+
+### 3. Akses endpoint privat TANPA token 
+GET http://localhost:3000/menu
+
+### 4. Akses endpoint privat DENGAN token
+GET http://localhost:3000/menu
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmN2YwYzMxZC0xMmZiLTRkNzctYTVhMi05N2NkYTNiODI0ZmYiLCJlbWFpbCI6ImRhbnVAZXhhbXBsZS5jb20iLCJuYW1hIjoiRGFudSIsImlhdCI6MTc5NTUwOTE3NSwiZXhwIjoxNzk1NTEyNzc1fQ.Fd_yOjr-gyhpn4mYLhcErhGfEqxf5aLVj-x0Kac9xMA

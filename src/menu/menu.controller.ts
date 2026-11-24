@@ -6,14 +6,17 @@ import {
   Param,
   Patch,
   Post,
+  UseGuards,
 } from '@nestjs/common';
+import { JwtAuthGuard } from '../auth/jwt-auth.guard.js';
 import { CreateMenuDto } from './dto/create-menu.dto.js';
 import { UpdateMenuDto } from './dto/update-menu.dto.js';
 import { MenuService } from './menu.service.js';
 
+@UseGuards(JwtAuthGuard)
 @Controller('menu')
 export class MenuController {
-  constructor(private readonly menuService: MenuService) { }
+  constructor(private readonly menuService: MenuService) {}
 
   @Post()
   create(@Body() createMenuDto: CreateMenuDto) {
