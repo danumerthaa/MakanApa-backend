@@ -4,6 +4,12 @@
 **NIM:** 103022400137
 
 ## Screenshots
+<img width="1911" height="1073" alt="menu" src="https://github.com/user-attachments/assets/aa3b49f8-4a7f-4bd1-95f2-686a0be5a6ea" />
+<img width="1917" height="1076" alt="login" src="https://github.com/user-attachments/assets/bf28989f-1662-4037-8b7d-7722b8df0b70" />
+<img width="1917" height="1072" alt="register" src="https://github.com/user-attachments/assets/35cef4d0-b496-4dab-92be-590437604133" />
+<img width="801" height="806" alt="devtools" src="https://github.com/user-attachments/assets/e1387b12-d77f-4981-a9be-b7db9725148e" />
+<img width="1917" height="1078" alt="registerlogin" src="https://github.com/user-attachments/assets/7484a6d9-4bde-4307-a0bf-8680b737bdc4" />
+<img width="1913" height="1075" alt="menu token" src="https://github.com/user-attachments/assets/2d80ee90-631c-49f4-8187-543b799e3833" />
 <img width="1917" height="1020" alt="PGADMIN4" src="https://github.com/user-attachments/assets/24a3fc55-dc5a-436c-9011-dfd4ab95a83e" />
 <img width="1917" height="1017" alt="JSON" src="https://github.com/user-attachments/assets/ce17bb24-7dc7-4ae2-b1d0-9cee2ac95eed" />
 <img width="1917" height="1022" alt="DELETE" src="https://github.com/user-attachments/assets/3c232ca3-5d62-4b39-9e29-3cd5cae42480" />
